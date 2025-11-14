@@ -97,12 +97,12 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start">
           <div className="space-y-8">
             <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-              <div className="text-4xl font-bold text-white">🌤️ Погода</div>
+              <div className="text-4xl font-bold text-white">🌤️ Яндекс Погода</div>
             </div>
 
             <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-              <div className="text-6xl mb-4">🚕</div>
-              <p className="font-bold text-2xl">Яндекс Такси</p>
+              <div className="text-6xl mb-4">🗺️</div>
+              <p className="font-bold text-2xl">Яндекс Карты</p>
             </div>
           </div>
 
@@ -133,7 +133,7 @@ const Index = () => {
 
           <div className="space-y-8">
             <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-              <div className="text-4xl font-bold text-white">🛒 Маркет</div>
+              <div className="text-4xl font-bold text-white">🛒 Яндекс Маркет</div>
             </div>
 
             <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
