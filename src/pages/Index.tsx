@@ -37,13 +37,13 @@ const Index = () => {
           <p className="text-foreground/80 text-lg leading-relaxed">
             Понятные инструкции по сервисам Яндекса для старшего поколения. Освойте технологии легко и быстро с Pikanso.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-8 py-6 text-lg rounded-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition-all hover:scale-105">
-              <Icon name="Play" size={24} />
+          <div className="flex flex-col gap-5">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-10 py-8 text-xl rounded-xl flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transition-all hover:scale-105">
+              <Icon name="Play" size={28} />
               Начать обучение
             </Button>
-            <Button variant="outline" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary-foreground font-bold px-8 py-6 text-lg rounded-lg flex items-center gap-2 shadow-md hover:shadow-lg transition-all hover:scale-105">
-              <Icon name="HelpCircle" size={24} />
+            <Button variant="outline" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary-foreground font-bold px-10 py-8 text-xl rounded-xl flex items-center justify-center gap-3 shadow-md hover:shadow-lg transition-all hover:scale-105">
+              <Icon name="HelpCircle" size={28} />
               Получить помощь
             </Button>
           </div>
