@@ -94,12 +94,19 @@ const Index = () => {
         <h2 className="text-4xl font-bold text-center mb-4">Популярные видео уроки</h2>
         <div className="w-24 h-1 bg-secondary mx-auto mb-12"></div>
         
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div className="space-y-4 text-center">
-            <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-              <div className="text-4xl font-bold text-white">🌤️ Погода</div>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start">
+          <div className="space-y-8">
+            <div className="space-y-4 text-center">
+              <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+                <div className="text-4xl font-bold text-white">🌤️ Погода</div>
+              </div>
+              <p className="text-sm font-semibold">Яндекс.Погода</p>
             </div>
-            <p className="text-sm font-semibold">Яндекс.Погода</p>
+
+            <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+              <div className="text-6xl mb-4">🚕</div>
+              <p className="font-bold text-2xl">Яндекс Такси</p>
+            </div>
           </div>
 
           <Card className="bg-gradient-to-br from-gray-800 to-black text-white p-6 space-y-4 hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
@@ -127,22 +134,18 @@ const Index = () => {
             </div>
           </Card>
 
-          <div className="space-y-4 text-center">
-            <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-              <div className="text-4xl font-bold text-white">🛒 Маркет</div>
+          <div className="space-y-8">
+            <div className="space-y-4 text-center">
+              <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+                <div className="text-4xl font-bold text-white">🛒 Маркет</div>
+              </div>
+              <p className="text-sm font-semibold">Яндекс.Маркет</p>
             </div>
-            <p className="text-sm font-semibold">Яндекс.Маркет</p>
-          </div>
-        </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-16 max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-            <div className="text-6xl mb-4">🚕</div>
-            <p className="font-bold text-2xl">Яндекс Такси</p>
-          </div>
-          <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-            <div className="text-6xl mb-4">🛍️</div>
-            <p className="font-bold text-2xl">Яндекс Лавка</p>
+            <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+              <div className="text-6xl mb-4">🛍️</div>
+              <p className="font-bold text-2xl">Яндекс Лавка</p>
+            </div>
           </div>
         </div>
       </section>
