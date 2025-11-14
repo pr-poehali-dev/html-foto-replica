@@ -96,11 +96,8 @@ const Index = () => {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start">
           <div className="space-y-8">
-            <div className="space-y-4 text-center">
-              <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-                <div className="text-4xl font-bold text-white">🌤️ Погода</div>
-              </div>
-              <p className="text-sm font-semibold">Яндекс.Погода</p>
+            <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+              <div className="text-4xl font-bold text-white">🌤️ Погода</div>
             </div>
 
             <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
@@ -135,11 +132,8 @@ const Index = () => {
           </Card>
 
           <div className="space-y-8">
-            <div className="space-y-4 text-center">
-              <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
-                <div className="text-4xl font-bold text-white">🛒 Маркет</div>
-              </div>
-              <p className="text-sm font-semibold">Яндекс.Маркет</p>
+            <div className="bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl p-8 flex items-center justify-center h-32 shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
+              <div className="text-4xl font-bold text-white">🛒 Маркет</div>
             </div>
 
             <div className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-2xl transition-all hover:scale-105 cursor-pointer">
