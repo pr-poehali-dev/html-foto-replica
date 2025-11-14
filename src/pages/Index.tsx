@@ -51,7 +51,7 @@ const Index = () => {
         <div className="relative">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-8 border-blue-400 rotate-2 hover:rotate-0 transition-transform duration-300">
             <img 
-              src="https://cdn.poehali.dev/files/d89c6c58-22ae-4221-aaf4-f46002c8fb14.png" 
+              src="https://cdn.poehali.dev/files/5a5e1f6b-d0c2-4d61-9bd8-359b70a3fbf3.png" 
               alt="Обучение цифровым технологиям" 
               className="w-full h-auto"
             />
